@@ -12,9 +12,14 @@ sender_email = 'abdelmonemalielmongy@gmail.com'
 # Your Gmail password
 sender_password = 'tgwg ppyn axut xjwo'  
 
-df =  pd.read_csv('hremail.csv')                 
+df =  pd.read_csv('hremail.csv')  
+list_email = df[df.columns[0]] 
+list_email = list(list_email)   
+         
 # List of recipient email addresses
-recipient_emails = ['Ahmedbasouney8@gmail.com', 'monem921999@gmail.com']  
+#recipient_emails = ['Ahmedbasouney8@gmail.com', 'monem921999@gmail.com'] 
+recipient_emails = list(list_email)  
+
 subject = 'Data Analysis & Business intelligence Developer'
 
 # Open the .txt file for reading (change 'filename.txt' to your file's name)
