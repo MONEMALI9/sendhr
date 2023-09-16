@@ -10,7 +10,7 @@ from email import encoders
 # Your Gmail email address
 sender_email = 'abdelmonemalielmongy@gmail.com'  
 # Your Gmail password
-sender_password = 'tgwg ppyn axut xjwo'  
+ 
 
 df =  pd.read_csv('hremail.csv')  
 list_email = df[df.columns[0]] 
