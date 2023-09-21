@@ -9,9 +9,9 @@ def sender():
     # Email configuration
 
     # Your Gmail email address
-    sender_email = 'abdelmonemalielmongy@gmail.com'  
+    sender_email = '@gmail.com'  
     # Your Gmail password
-    sender_password = 'tgwg ppyn axut xjwo' 
+    sender_password = '---- ---- ---- ----' 
 
     df =  pd.read_csv('hremail.csv')  
     list_email = df[df.columns[0]] 
